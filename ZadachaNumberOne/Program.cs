@@ -1,14 +1,12 @@
-﻿int a = 2;
-int b = 10;
+﻿int a = 9;
+int b = 3;
 
 if(a > b)
 {
-    Console.WriteLine(a);
-    Console.WriteLine(b);
+    Console.WriteLine("max = " + a);
 }
 
 else
 {
-    Console.WriteLine(b);
-    Console.WriteLine(a);
+    Console.WriteLine("max = " + b);
 }
